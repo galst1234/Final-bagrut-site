@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="page">
+        <div id="header"><br />
+        <h2><asp:label id="pagetitle" runat="server"></asp:label></h2>
+        
+        </div>
+        <div id="bar">
+        	<div class="link"><a href="HomePage.aspx">Home</a></div>
+            <div class="link"><a href="SignUp.aspx">Sign Up</a></div>
+            <div class="link"><a href="SignIn.aspx">Sign In</a></div>
+            <div class="link"><a href="Store.aspx">Store</a></div>
+            <div class="link"><a href="UserUpdateInf.aspx">Update Info</a></div>
+            <div class="link"><a href="contact.htm">Contact</a></div>
+            <div class="link"><a href="News.aspx">News</a></div>
+        </div>
+        <div class="contentText">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    </form>
+</body>
+</html>

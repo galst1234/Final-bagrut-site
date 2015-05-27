@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<roottoot>
+  <father>
+    <son1>Title</son1>
+    <son2>Text</son2>
+  </father>
+  <father>
+    <son1>New new</son1>
+    <son2>the text of the new</son2>
+  </father>
+  <father>
+    <son1>First New</son1>
+    <son2>Theres nothing new, sorry</son2>
+  </father>
+</roottoot>
